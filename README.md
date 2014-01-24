@@ -6,7 +6,7 @@
 
 Guesser is a library that allows you to smartly guess values to find an unkownn boundary on a function.
 
-For example, imagine you are given access to an API for books. Given an integer representing a book, you are able to look up the book with `Book.get(5)`. If you try to find a book with an integer that is higher than all of the other books, it will raise a `BookNotFound` exception.
+For example, imagine you are given access to an API for books. Given an integer representing a book, you are able to look up the book with `Book.get(7)`. If you try to find a book with an integer that is higher than all of the other books, it will raise a `BookNotFound` exception.
 
 We want to find out how many books there are (we assume there are not 'gaps' in the ids).
 
